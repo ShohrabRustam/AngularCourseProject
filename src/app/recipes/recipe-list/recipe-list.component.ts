@@ -11,7 +11,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
 
   recipes:Recipe[]=[
-    new Recipe('A test Recipe ', 'This is simple a test ', 'https://miro.medium.com/max/1360/0*DaqUDBK-6UrgG5fa.jpg')
+    new Recipe('A test Recipe ', 'This is simple a test ',
+    'https://miro.medium.com/max/1360/0*DaqUDBK-6UrgG5fa.jpg'),
   ];
   constructor() { }
 
